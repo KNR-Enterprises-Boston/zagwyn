@@ -82,7 +82,7 @@ function ValueColumns() {
     {
       title: "Kiln-Dried Option",
       body:
-        "Our thermodynamic kilns drop moisture below 20% and eliminate insects, mold, and fungus. Safe to store near the hearth, lights fast, burns hot, and keeps your chimney cleaner.",
+        "Our kilns drop moisture below 20% and eliminate insects, mold, and fungus. Safe to store near the hearth, lights fast, burns hot, and keeps your chimney cleaner.",
       icon: (
         <>
           <path d="M12 3c2 3 4 5 4 8a4 4 0 1 1-8 0c0-3 2-5 4-8z" />
@@ -110,8 +110,8 @@ function ValueColumns() {
       <div className="container-wide py-16 sm:py-20 md:py-28">
         <SectionHeading
           eyebrow="The Zagwyn Difference"
-          title="Built like a piece of equipment, delivered like a neighbor."
-          lede="We run an industrial operation so every split you get is uniform, clean, and ready to burn. Then we drop it exactly where you want it."
+          title="Industrial processing. Neighborly delivery."
+          lede="Every split is uniform, clean, and ready to burn — then we drop it exactly where you want it."
         />
         <div className="mt-10 sm:mt-14 grid gap-10 sm:gap-12 md:grid-cols-3">
           {items.map((item) => (

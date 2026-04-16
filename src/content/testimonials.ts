@@ -6,23 +6,25 @@ export type Testimonial = {
 
 // TODO: Replace with real, client-approved testimonials pulled from Google
 // Business Profile reviews or collected directly from repeat customers.
+// Current quotes are based on themes from actual public reviews but the
+// names and towns are placeholders — do not publish without real attribution.
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "The crew was super helpful with placement — they worked around a tight driveway and stacked the wood exactly where I wanted it.",
-    name: "Mike R.",
-    town: "Groton, MA",
+      "They were super helpful with placement — worked around a tight driveway and put the wood exactly where I needed it.",
+    name: "Google Review",
+    town: "Middlesex County",
   },
   {
     quote:
-      "Clean, dry, and cut to a consistent length. First load I've gotten in years where every piece fit my stove without resplitting.",
-    name: "Sarah T.",
-    town: "Westford, MA",
+      "Clean wood, cut to a consistent length. Every piece fit my stove without resplitting.",
+    name: "Google Review",
+    town: "Worcester County",
   },
   {
     quote:
-      "Called on a Tuesday, delivered on a Thursday. Alex kept me in the loop the whole way.",
-    name: "Dan K.",
-    town: "Ayer, MA",
+      "Quick turnaround and good communication. Would order again.",
+    name: "Google Review",
+    town: "Middlesex County",
   },
 ];

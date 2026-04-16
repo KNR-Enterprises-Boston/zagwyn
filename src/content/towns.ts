@@ -9,10 +9,10 @@ export type DeliveryZone = {
 export const deliveryZones: DeliveryZone[] = [
   {
     id: 1,
-    label: "Zone 1 — Immediate Exurban Core",
+    label: "Zone 1 — Local",
     radius: "0 – 10 miles from Shirley",
     description:
-      "Our backyard. Fastest scheduling and ideal for large bulk drops when you have the room to store it.",
+      "Our backyard. Fastest scheduling, and ideal for large bulk drops if you have the room to store it.",
     towns: [
       "Shirley",
       "Devens",
@@ -26,10 +26,10 @@ export const deliveryZones: DeliveryZone[] = [
   },
   {
     id: 2,
-    label: "Zone 2 — High-Density Suburban Ring",
+    label: "Zone 2 — Surrounding Towns",
     radius: "10 – 15 miles from Shirley",
     description:
-      "Denser neighborhoods where storage is tighter. A good fit for half-cord and single-cord deliveries of clean kiln-dried wood.",
+      "A good fit for half-cord and single-cord deliveries. Storage tends to be tighter in these neighborhoods.",
     towns: [
       "Leominster",
       "Fitchburg",
@@ -44,10 +44,10 @@ export const deliveryZones: DeliveryZone[] = [
   },
   {
     id: 3,
-    label: "Zone 3 — Eastern Commuter Belt",
+    label: "Zone 3 — Extended Range",
     radius: "15 – 20+ miles from Shirley",
     description:
-      "Towns along the Route 2 and 495 corridors. Deliveries scheduled on the same route for efficiency — call early in the season.",
+      "Towns along the Route 2 and 495 corridors. We group deliveries by route, so call early in the season to get on the schedule.",
     towns: [
       "Concord",
       "Carlisle",

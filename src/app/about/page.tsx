@@ -37,24 +37,17 @@ export default function AboutPage() {
               </h1>
               <div className="mt-5 sm:mt-6 space-y-4 sm:space-y-5 text-charcoal/80 text-base md:text-lg leading-relaxed">
                 <p>
-                  The Zagwyn family has been working in and around central
-                  Massachusetts for generations — Shirley, Marlborough,
-                  Southborough, Sterling, Winchendon, Ashburnham. Firewood is
-                  one of several things we do, and it's the one most of our
-                  neighbors know us for.
+                  The Zagwyn family has deep roots in central
+                  Massachusetts — Shirley, Marlborough,
+                  Southborough, Sterling, and the surrounding area. Firewood is
+                  one part of what Zagwyn Contracting does, and it's the one
+                  most of our neighbors know us for.
                 </p>
                 <p>
                   Alex and David run the day-to-day. They answer the phone,
-                  quote the orders, load the trucks, and often drive the
-                  deliveries themselves. If you call, you'll talk to someone
-                  whose hands were on your wood a few hours earlier.
-                </p>
-                <p>
-                  For years the business ran on phone calls and word of mouth.
-                  This website exists so that ordering is easier for customers
-                  who'd rather check availability and pricing online first —
-                  but the phone still works, and it's still the fastest way to
-                  talk to Alex or David directly.
+                  quote the orders, load the trucks, and drive the
+                  deliveries. When you call, you're talking directly to
+                  the people handling your order.
                 </p>
               </div>
               <div className="mt-6 sm:mt-8">
@@ -71,7 +64,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="Our Yard"
             title="How We Process Your Wood"
-            lede="Four pieces of equipment do the real work. Here's what each one does and why it matters for the firewood you get."
+            lede="Here's the equipment behind every cord we deliver and why it matters for the wood you get."
             tone="dark"
           />
 
@@ -94,8 +87,8 @@ export default function AboutPage() {
             />
             <Equipment
               number="03"
-              title="Thermodynamic Kilns"
-              body="Our kilns bake green wood down below 20% moisture in a matter of days instead of the six to twelve months it takes wood to air-season on its own. The heat also kills insects, mold, and fungus — which is why our kiln-dried wood is safe to store indoors. Kiln-dried lights faster, burns hotter, and produces less creosote."
+              title="Firewood Kilns"
+              body="Our kilns bring green wood below 20% moisture in days instead of the six to twelve months air-seasoning takes. The heat also kills insects, mold, and fungus — which is why kiln-dried wood is safe to store indoors. It lights faster, burns hotter, and produces less creosote."
               photoSrc={images.equipment.kiln}
               photoAlt="Kiln drying facility — heat treatment eliminates moisture and insects"
               reverse={false}
@@ -118,7 +111,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="Delivery Area"
             title="We deliver across central and eastern Massachusetts."
-            lede="Based in Shirley, MA. We cover a roughly 20-mile radius through Middlesex and Worcester counties. If your town isn't on the list, call us — we can usually work it out."
+            lede="Based in Shirley, MA, covering Middlesex and Worcester counties. If your town isn't on the list, call us — we can usually work it out."
           />
         </div>
       </section>
@@ -134,7 +127,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="Service Zones"
             title="Three zones, priced by distance."
-            lede="Delivery fees scale with how far we are from Shirley. Zone 1 is the fastest to schedule; Zone 3 routes are usually aggregated so we don't run trucks empty."
+            lede="Delivery fees depend on distance from Shirley. Closer zones are the fastest to schedule."
           />
           <div className="mt-10 sm:mt-12 grid gap-8 sm:gap-10 md:grid-cols-3">
             {deliveryZones.map((zone) => (

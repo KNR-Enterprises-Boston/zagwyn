@@ -72,7 +72,7 @@ export function ZipChecker() {
 }
 
 function zoneLabel(zone: 1 | 2 | 3) {
-  if (zone === 1) return "Zone 1 — Immediate Exurban Core";
-  if (zone === 2) return "Zone 2 — Suburban Ring";
-  return "Zone 3 — Eastern Commuter Belt";
+  if (zone === 1) return "Zone 1 — Local";
+  if (zone === 2) return "Zone 2 — Surrounding Towns";
+  return "Zone 3 — Extended Range";
 }

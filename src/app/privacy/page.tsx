@@ -32,10 +32,6 @@ export default function PrivacyPage() {
             </a>
             .
           </p>
-          <p className="text-sm text-charcoal/60">
-            This is a brief placeholder policy. Replace with a full policy
-            reviewed by counsel before launch.
-          </p>
         </div>
       </div>
     </section>

@@ -30,7 +30,7 @@ export const products: Product[] = [
     badge: "Flagship",
     shortDescription: "Sub-20% moisture. Clean enough to store indoors.",
     summary:
-      "Baked in our thermodynamic kilns until moisture drops below 20%. Insects, mold, and fungus are eliminated during the drying cycle, so the wood is safe to stack near your hearth without worry.",
+      "Dried in our kilns until moisture drops below 20%. Insects, mold, and fungus are eliminated during the process, so the wood is safe to stack near your hearth.",
     features: [
       "Sub-20% moisture — lights fast, burns hot",
       "Insect, mold, and fungus free after kiln cycle",
